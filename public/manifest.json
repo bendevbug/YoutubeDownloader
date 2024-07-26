@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Ytb downloader",
+    "version": "1.0.0",
+    "action": { 
+        "default_popup": "index.html"
+     },
+    "background": {
+        "service-worker": "service-worker.js",
+        "type": "module"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
